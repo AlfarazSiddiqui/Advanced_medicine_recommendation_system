@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* Replace 'background.jpg' with your actual file path */
+    background-image: url('background.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.card h2 {
+    color: #2d5a57; /* A deep teal to match the image theme */
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ca19b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3a7d78;
+}
+
+.footer-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer-link a {
+    color: #4ca19b;
+    text-decoration: none;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login page background */
+.login-bg {
+    background-image: url('/static/images/login-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Signup page background */
+.signup-bg {
+    background-image: url('/static/images/signup-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Center card */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.card h2 {
+    color: #2d5a57;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ca19b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a7d78;
+}
+
+.footer-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer-link a {
+    color: #4ca19b;
+    text-decoration: none;
+}

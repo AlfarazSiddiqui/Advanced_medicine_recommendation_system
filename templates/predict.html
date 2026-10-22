@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Medicine Recommendation</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="card">
+<h2>Medicine Recommendation System</h2>
+<form method="POST">
+<input type="text" name="symptoms" placeholder="Enter symptoms"><br>
+<button type="submit">Predict Disease</button>
+</form>
+
+{% if disease %}
+<h3>Disease: {{disease}}</h3>
+<h3>Medicine: {{medicine}}</h3>
+{% endif %}
+
+<a href="/logout">Logout</a>
+</div>
+</body>
+</html>
